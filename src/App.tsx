@@ -62,7 +62,8 @@ const GraduationStory = ({ onClose }: { onClose: () => void }) => (
       <div className="grid md:grid-cols-2 gap-8 p-8">
         <div className="relative aspect-video md:aspect-auto overflow-hidden cyber-border border border-white/10 bg-black/50">
           <img 
-            src="https://picsum.photos/seed/picsum/200/300" 
+            {/* src="https://picsum.photos/seed/picsum/200/300"  */}
+          src="meceonvovation.jpeg"
             alt="Graduation" 
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
