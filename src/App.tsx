@@ -63,7 +63,7 @@ const GraduationStory = ({ onClose }: { onClose: () => void }) => (
         <div className="relative aspect-video md:aspect-auto overflow-hidden cyber-border border border-white/10 bg-black/50">
           <img 
           
-          src="meceonvovation.jpeg"
+          src="https://media.licdn.com/dms/image/v2/D5622AQECzc6D1G2sjQ/feedshare-shrink_1280/B56Zjr8xlOH8A0-/0/1756305237472?e=1774483200&v=beta&t=HQEFoW6LSCytyUpBxkGjNjDcL9Prtzkb4zpJT8sgHR8"
             alt="Graduation" 
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
