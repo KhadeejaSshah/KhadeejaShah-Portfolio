@@ -541,7 +541,7 @@ export default function App() {
                 desc: "Bachelor of Data Science", 
                 icon: GraduationCap, 
                 color: "text-cyber-blue", 
-                img: "src/public/assets/graduation.jpeg",
+                img: "public/assets/graduation.jpeg",
                 onClick: () => setShowGradStory(true)
               },
               { 
