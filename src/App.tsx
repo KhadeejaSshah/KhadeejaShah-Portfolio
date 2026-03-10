@@ -1,7 +1,10 @@
 /**
  * @license
- * SPDX-License-Identifier: Apache-2.0
+ * SPDX-License-Identifier:
+ *  Apache-2.0
  */
+ 
+// import graduationImg from "./assets/graduation.jpeg";
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -62,6 +65,7 @@ const GraduationStory = ({ onClose }: { onClose: () => void }) => (
       <div className="grid md:grid-cols-2 gap-8 p-8">
         <div className="relative aspect-video md:aspect-auto overflow-hidden cyber-border border border-white/10 bg-black/50">
         <img 
+       // src =  {graduationImg}
   src="https://media.licdn.com/dms/image/v2/D5622AQECzc6D1G2sjQ/feedshare-shrink_1280/B56Zjr8xlOH8A0-/0/1756305237472?e=1774483200&v=beta&t=HQEFoW6LSCytyUpBxkGjNjDcL9Prtzkb4zpJT8sgHR8"
   alt="Graduation" 
   className="w-full h-full object-contain"
@@ -105,9 +109,9 @@ const GraduationStory = ({ onClose }: { onClose: () => void }) => (
             <p>FAST wasn’t always comfortable. Sometimes it was exhausting. Sometimes it was frustrating. Sometimes it felt impossible.</p>
             <p>But looking back today, I realize something: Every challenge was shaping me into the person I am today.</p>
             
-            <p className="text-xl font-display font-bold text-cyber-yellow pt-4">
+            {/* <p className="text-xl font-display font-bold text-cyber-yellow pt-4">
               Today, I graduate as Khadeeja Shah — BS Data Science, Batch ’21.
-            </p>
+            </p> */}
             
             <p>A student who once entered FAST confused about life… and leaves as someone deeply in love with the world of Data Science and AI.</p>
             <p>What started as uncertainty turned into passion. And this is only the beginning.</p>
@@ -537,7 +541,7 @@ export default function App() {
                 desc: "Bachelor of Data Science", 
                 icon: GraduationCap, 
                 color: "text-cyber-blue", 
-                img: "https://picsum.photos/seed/picsum/200/300",
+                img: "src/assets/graduation.jpeg",
                 onClick: () => setShowGradStory(true)
               },
               { 
