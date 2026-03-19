@@ -715,7 +715,7 @@ export default function App() {
             KHADEEJA <span className="text-cyber-blue">SHAH</span>
           </div>
           <div className="font-mono text-[10px] text-white/20 uppercase tracking-[0.3em]">
-            © 2026 AI_CORE_PROTOCOL // ALL_RIGHTS_RESERVED
+            © 2026 Khadeeja_Shah // ALL_RIGHTS_RESERVED
           </div>
           <div className="flex gap-6">
             <Github className="w-5 h-5 text-white/40 hover:text-white cursor-pointer" />
