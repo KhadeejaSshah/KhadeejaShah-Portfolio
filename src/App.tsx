@@ -482,10 +482,10 @@ export default function App() {
               </p>
               
               <div className="flex flex-wrap gap-4">
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="cyber-button bg-cyber-blue text-black px-6 py-3 font-display font-bold text-sm flex items-center gap-2 hover:bg-white transition-colors">
+                <a href="https://www.linkedin.com/in/khadeeja-shah-4016b4300/" target="_blank" rel="noopener noreferrer" className="cyber-button bg-cyber-blue text-black px-6 py-3 font-display font-bold text-sm flex items-center gap-2 hover:bg-white transition-colors">
                   <Linkedin className="w-4 h-4" /> LINKEDIN_PROFILE
                 </a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="cyber-button border border-white/20 px-6 py-3 font-display font-bold text-sm flex items-center gap-2 hover:bg-cyber-blue hover:text-black transition-colors">
+                <a href="https://github.com/KhadeejaSshah" target="_blank" rel="noopener noreferrer" className="cyber-button border border-white/20 px-6 py-3 font-display font-bold text-sm flex items-center gap-2 hover:bg-cyber-blue hover:text-black transition-colors">
                   <Github className="w-4 h-4" /> GITHUB_REPO
                 </a>
               </div>
