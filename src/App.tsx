@@ -716,9 +716,15 @@ From energy forecasting platforms that predict power generation 72 hours ahead t
             © 2026 KhadeejaShah // ALL_RIGHTS_RESERVED
           </div>
           <div className="flex gap-6">
-            <Github className="w-5 h-5 text-white/40 hover:text-white cursor-pointer" />
-            <Linkedin className="w-5 h-5 text-white/40 hover:text-white cursor-pointer" />
-            <Mail className="w-5 h-5 text-white/40 hover:text-white cursor-pointer" />
+            <a href="https://github.com/KhadeejaSshah" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" className="text-white/40 hover:text-white transition-colors">
+              <Github className="w-5 h-5" />
+            </a>
+            <a href="https://www.linkedin.com/in/khadeeja-shah-4016b4300/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" className="text-white/40 hover:text-white transition-colors">
+              <Linkedin className="w-5 h-5" />
+            </a>
+            <a href="mailto:khadeejaishaque03@gmail.com" aria-label="Send email" className="text-white/40 hover:text-white transition-colors">
+              <Mail className="w-5 h-5" />
+            </a>
           </div>
         </footer>
 
