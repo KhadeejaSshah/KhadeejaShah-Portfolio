@@ -66,7 +66,7 @@ const GraduationStory = ({ onClose }: { onClose: () => void }) => (
         <div className="relative aspect-video md:aspect-auto overflow-hidden cyber-border border border-white/10 bg-black/50">
         <img 
        // src =  {graduationImg}
-  src="https://media.licdn.com/dms/image/v2/D5622AQECzc6D1G2sjQ/feedshare-shrink_1280/B56Zjr8xlOH8A0-/0/1756305237472?e=1774483200&v=beta&t=HQEFoW6LSCytyUpBxkGjNjDcL9Prtzkb4zpJT8sgHR8"
+  src="assets/graduation.jpeg"
   alt="Graduation" 
   className="w-full h-full object-contain"
   referrerPolicy="no-referrer"
@@ -348,13 +348,12 @@ export default function App() {
       company: "SkyElectric — Islamabad",
       period: "Jul 2025 – Present",
       description: [
-        "Built a production time-series forecasting system predicting PV generation, load demand, and grid behavior for 72 hours ahead.",
-        "Implemented GRU-based deep learning models using weather, temporal, and usage features.",
-        "Developed a real-time data pipeline ingesting operational data from ScyllaDB and PostgreSQL.",
-        "Implemented experiment tracking and model evaluation pipelines using MLflow.",
-        "Designed multi-channel AI chatbots for WhatsApp and LINE serving customers in Pakistan and Japan.",
-        "Built a live streaming AI avatar assistant enabling real-time conversational responses."
-      ]
+     "Built a production-grade forecasting platform predicting PV generation, energy consumption, and grid behavior up to 72 hours ahead using GRU/LSTM deep learning models.",
+"Developed real-time ML pipelines integrating operational data from ScyllaDB and PostgreSQL with experiment tracking, model monitoring, and evaluation through MLflow.",
+"Designed and implemented a Smart System Designer that analyzes customer electricity bills and recommends optimal solar PV, battery, and inverter configurations with ROI estimation, payback period analysis, and CO₂ offset calculations.",
+"Built a Grid Independence Optimizer leveraging one year of consumption history, weather patterns, and peak load analysis to recommend system upgrades aimed at achieving zero electricity bills.",
+"Engineered multi-channel AI assistants for WhatsApp and LINE, supporting customer interactions across Pakistan and Japan.",
+"Developed a real-time AI avatar assistant using LiveKit, Tavus, HeyGen, speech-to-text, and text-to-speech technologies for live conversational experiences." ]
     },
     {
       role: "AI Engineer",
@@ -386,15 +385,17 @@ export default function App() {
       link: "https://www.linkedin.com/posts/khadeeja-shah-4016b4300_refactoai-fyp-llm-activity-7326257898987106305--dm1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEz9YEEB0NQUrr-NFmJg0nDZ2COQa2xlT4k"
     },
     {
+  title: "OwnThatTone",
+  description: "Built an AI-powered communication assistant that transforms messages into different tones and personalities. Features include Vibe Selector, Persona Mode, Message Decoder, Contact Mirror, Lyric Reply, and Texting DNA, helping users craft context-aware responses for friends, family, colleagues, and professional conversations. Designed and developed the product from concept to deployment with a focus on user experience, social sharing, and real-world messaging scenarios.",
+  tags: ["React", "Python", "LLMs", "Prompt Engineering", "Flask", "AI Products"],
+  link: "https://ownthattone.com"
+},
+    {
       title: "Hiday — Ethical Voice Assistant",
       description: "Hiday is a real-time AI voice assistant designed to provide ethical guidance through conversational interaction. The system captures user speech, analyzes the sentiment and context using NLP techniques, and generates thoughtful responses aimed at promoting ethical decision-making. It integrates speech recognition, natural language processing, and text-to-speech technologies.",
       tags: ["Python", "Flask", "NLP", "SpeechRecognition", "TTS"],
     },
-    {
-      title: "AI Itinerary Generator",
-      description: "Developed an AI-powered travel itinerary generator that automatically creates personalized travel plans based on user preferences. The system integrates location data, hotel information, and route optimization to generate complete travel schedules from home departure to return.",
-      tags: ["Python", "OpenAI API", "Google Maps API", "Flask", "NLP"],
-    }
+   
   ];
 
   const skills = {
@@ -649,19 +650,16 @@ export default function App() {
               <div className="p-8 border border-cyber-blue/20 bg-cyber-blue/5 cyber-border">
                 <h3 className="text-2xl font-display font-black mb-4 italic">THE EDGE</h3>
                 <p className="text-white/70 leading-relaxed mb-6">
-                  I don't just build models; I build production-ready systems. My experience spans from 
-                  real-time energy forecasting to multi-channel conversational AI. I bridge the gap 
-                  between academic research and enterprise-scale deployment.
+                  I build AI systems people actually use.
+
+From energy forecasting platforms that predict power generation 72 hours ahead to AI assistants serving users across WhatsApp, LINE, and the web, my focus is turning machine learning into real-world products that create measurable value.
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="p-4 bg-black/40 border border-white/5">
-                    <div className="text-2xl font-display font-bold text-cyber-blue">35%</div>
-                    <div className="text-[10px] font-mono text-white/40 uppercase">Accuracy Boost</div>
+                    <div className="text-2xl font-display font-bold text-cyber-blue">10+</div>
+                    <div className="text-[10px] font-mono text-white/40 uppercase">AI Features Shipped</div>
                   </div>
-                  <div className="p-4 bg-black/40 border border-white/5">
-                    <div className="text-2xl font-display font-bold text-cyber-yellow">72H</div>
-                    <div className="text-[10px] font-mono text-white/40 uppercase">Forecast Horizon</div>
-                  </div>
+                  
                 </div>
               </div>
               
@@ -697,7 +695,7 @@ export default function App() {
                     </div>
                     <div>
                       <div className="text-[10px] font-mono text-white/40 uppercase">Comm-Link</div>
-                      <div className="text-sm font-display font-bold">03343999918</div>
+                      <div className="text-sm font-display font-bold">-</div>
                     </div>
                   </div>
                   <button className="w-full cyber-button bg-white text-black py-4 font-display font-black text-lg hover:bg-cyber-blue transition-colors mt-4">
@@ -715,7 +713,7 @@ export default function App() {
             KHADEEJA <span className="text-cyber-blue">SHAH</span>
           </div>
           <div className="font-mono text-[10px] text-white/20 uppercase tracking-[0.3em]">
-            © 2026 AI_CORE_PROTOCOL // ALL_RIGHTS_RESERVED
+            © 2026 KhadeejaShah // ALL_RIGHTS_RESERVED
           </div>
           <div className="flex gap-6">
             <Github className="w-5 h-5 text-white/40 hover:text-white cursor-pointer" />
